@@ -1,0 +1,107 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+
+@media screen and (max-width: 1200px) { 
+    /*.sec_1 .container{ left: 0; margin-left: 0;}  */
+    .sec_2 .light , .sec_2 .light2{ width: 160%; margin-left: -80%; }
+}
+@media screen and (max-width: 1160px) {
+    body,html{ font-size: 45px;}
+}
+@media screen and (max-width: 1024px) {
+    body,html{ font-size: 42px;}
+    
+    .lbbox{ width: 93.125%; height: 14rem; padding: 2.2rem 1.2rem 1.5rem 1.3rem; }
+    .rule .inner{ height: 10.7rem; }
+    .rule .sub{ width: 17%; -webkit-background-size: 0.7rem auto; background-size: 0.7rem auto; }
+    .rule .txt{ width: 82%; }
+    .rule span{ margin: 0.15rem 0;}
+}
+@media screen and (max-width: 900px) {
+    body,html{ font-size: 37px;}
+}
+@media screen and (max-width: 768px) {
+    body,html{ font-size: 72px;}
+
+    header{ z-index: 20; }
+
+    .nav{ width: 100%; margin-right: 0; position: absolute; top: 100%; background: #a42023; display: none; }
+    .nav .btn{ width: 100%; text-align: center; box-sizing: border-box; padding: 0; }
+    .nav .btn a{ padding: 0.6rem 0; }
+    .nav .btn span{ display: inline-block; position: absolute; top: 24%; right: 27%; font-size: 0.9rem; font-weight: normal; color: #fbf5db; }
+    .nav .btn:hover span{ color: #ffdd4a; }
+    .nav .subnav{ position: initial; width: 100%; }
+    .nav .subnav a{ font-weight: normal; padding: 0.5rem 0;}
+    .logo{ left: 0; top: 0; right: auto; width: 41.71875%; }
+    .btn_nav{ width: 18.4375%; }
+
+    .sec_1{ background-image: url('../images/m_kv_bg.jpg'); }
+    .sec_1 .kv_maintitle{ width: 61.40625%; top: 16%; right: 3%; }
+    .sec_1 .kv_talking{ width: 64.0625%; top: 40.8%; right: 1% }
+    .sec_1 .kv_t1{ width: 64.0625%; top: 60%; }
+    .sec_1 .kv_t2{ width: 96.875%; top: 82%; }
+    .sec_1 .kv_arrow{ width: 11.09375%; top: 91%; left: 47%; }
+    
+    .sec_2 .light{ top: -8%; }
+    .sec_2 .form_box{ background: url('../images/m_form_bg.jpg') repeat-y center top; -webkit-background-size: 100% auto; background-size: 100% auto; padding: 1.7rem 0 1rem;}
+    .sec_2 .form_box .title{ width: 74.16107382550336%; margin-left: -37.08053691275168%; top: -1%; }
+    .sec_2 .form_box:before{ width: 92%; left: 4%; height: 29.2rem; top: 1.5%; }
+    .sec_2 .form .box{ width: 100%; }
+    .sec_2 .form .th, .sec_2 .form .td{ padding: 0.05rem 0; }
+    .sec_2 .form .td{ width: 100%; padding-bottom: 0.5rem; }
+    .sec_2 .form input, .sec_2 .form select{ font-size: 0.38rem;}
+    .sec_2 .form .selectbox , .sec_2 .form .upload{ border-radius: 5px; }
+    .sec_2 .form .w2{ width: 48.2%; }
+    .sec_2 .form span{ font-size: 0.3rem; }
+    .sec_2 .btn_send{ width: 49.66442953020134%; margin: 0 auto; }
+    .sec_2 .form input[type="date"]{ height: 0.85rem; }
+
+    .sec_3{ background: url('../images/m_sec_3_bg.jpg') repeat-y center top; -webkit-background-size: 100% auto; background-size: 100% auto; }
+    .sec_3 .content{ padding: 3.2rem 0 0; }
+    .sec_3 .box .title{ width: 108%; left: 50%; margin-left: -54%; top: -2.55rem; }
+    .sec_3 .box{ padding: 2.5rem 0 0.5rem; margin-bottom: 4.5rem; }
+    .sec_3 .box:last-child{ margin-bottom: 1rem; }
+    .sec_3 .box .paper{ width: 108%; left: 50%; margin-left: -54%; top: -4.1rem; }
+    .sec_3 .list{ width: 93%; }
+    .sec_3 .list .m-w-fill{ width: 100%; }
+    
+    footer{ padding: 0.25rem 0; }
+    footer a, footer span, footer p{ padding: 0.05rem 0.1rem; }
+    
+    .lbbox{ height: 12rem; padding: 1.5rem 0.5rem 1rem 0.8rem; background: url('../images/m_lb_bg.jpg') no-repeat center top; -webkit-background-size: 100% auto; background-size: 100% auto; margin-top: 2rem; } 
+    .rule .title{ width: 74.16107382550336%; margin-left: -37.08053691275168%; }
+    .rule .sub , .rule .txt{ width: 100%; }
+    .rule .list{ width: 94%; text-align: justify; }
+    .rule .txt{ font-size: 0.4rem; }
+    .rule span{ font-size: 0.35rem; }
+    .rule .txt2{ padding-left: 0; }
+    .rule .list li{ margin: 0.2rem 0; }
+    .rule .inner{ height: 10rem; }
+
+    .backtop{ width: 15%; bottom: 3%; }
+}
+@media screen and (max-width: 690px) {
+    body,html{ font-size: 60px;}
+}
+@media screen and (max-width: 600px) {
+    body,html{ font-size: 55px;}
+}
+@media screen and (max-width: 560px) {
+    body,html{ font-size: 50px;}
+}
+@media screen and (max-width: 520px) {
+    body,html{ font-size: 45px;}
+}
+@media screen and (max-width: 460px) {
+    body,html{ font-size: 40px;}
+}
+@media screen and (max-width: 400px) {
+    body,html{ font-size: 35px;}
+}
+@media screen and (max-width: 360px) {
+    body,html{ font-size: 30px;}
+}
+@media screen and (max-width: 320px) {
+    body,html{ font-size: 30px;}
+}
